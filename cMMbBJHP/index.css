@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Sedan:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Andika, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+
+
+.nav{
+    display: flex; 
+    height: 90px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #21222A;
+    padding: 30px;
+    
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+    margin-right:8px;
+    
+}
+
+h3 {
+    
+    color: #61DAFB;
+    font-weight: 800;
+    margin-right: auto;
+}
+
+h4{
+   font-size: 18px;
+   color: paleturquoise;
+   font-weight: 600;
+}
+
+.div{
+    padding-top: 20px;
+    background-color: #23333B;
+    background-image: url(./images/ReactNative.png);
+    background-repeat: no-repeat;
+    background-position: right; 
+    min-height: 100vh;
+}
+
+.main-h1{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+
+.list-items{
+    line-height: 40px;
+    color: white;
+    margin-left: 40px
+}
+li{
+    font-weight: 400;
+   
+}
+
+li::marker{
+    font-size: 1.2rem;
+    color: #61DAFB;
+}
+
+footer{
+    background-color: gainsboro;
+    text-align: center;
+    
+}
